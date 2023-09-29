@@ -1,0 +1,85 @@
+@import './base.css';
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+} */
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+ 
+}
+
+body{
+  background-color: #74C7D1;
+  font-family: var(--el-font-family);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.center-column{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-padding{
+  height: 100%;
+  padding:20px;
+}
+
+.main-header{
+  height: 10%;
+}
+
+.main-main{
+  height:90%
+}
+
+.width100{
+  width:100%
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.transparent-input-border{
+  --el-input-border-color:#ffffff00;
+}
+
+.el-menu{
+    border-right: none;
+}
+
+.font-sub-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.el-button{
+  font-family: Public Sans,sans-serif;
+}
+
+input{
+  font-family: Public Sans,sans-serif;
+  
+}
+
+.el-dialog {
+  --el-border-radius-small: 10px;
+}
